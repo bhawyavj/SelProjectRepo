@@ -21,7 +21,11 @@ public class TestNGFeature1
 {
 	public static WebDriver driver;
 	
-	//Commit 4
+
+	//Commit 6
+
+	//Changed in GIT
+
 	
 	@BeforeClass //Should be public
 	public void BeforeClass() {
