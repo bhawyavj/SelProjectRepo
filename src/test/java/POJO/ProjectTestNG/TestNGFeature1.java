@@ -37,7 +37,7 @@ public class TestNGFeature1
 	private void BeforeMethod() {
 		Date d = new Date();
 		
-		System.out.println("=====   BeforeMethod  ====");
+		System.out.println("=====   BeforeMethod ");
 		System.out.println("Start Time"+d);
 
 	}
