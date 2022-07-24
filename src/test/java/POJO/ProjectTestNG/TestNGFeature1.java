@@ -21,7 +21,11 @@ public class TestNGFeature1
 {
 	public static WebDriver driver;
 	
-	
+
+	//Commit 6
+
+	//Changed in GIT
+
 	
 	@BeforeClass //Should be public
 	public void BeforeClass() {
@@ -37,7 +41,7 @@ public class TestNGFeature1
 	private void BeforeMethod() {
 		Date d = new Date();
 		
-		System.out.println("=====   BeforeMethod ----");
+		System.out.println("=====   BeforeMethod ======");
 		System.out.println("Start Time"+d);
 
 	}
